@@ -1,1 +1,1 @@
-exports.handler = async (e, context) => { statusCode: 200, body: "Hello Serverless!"}
+exports.handler = async (e, context) => { return {statusCode: 200, body: "Hello Serverless!"}; }
